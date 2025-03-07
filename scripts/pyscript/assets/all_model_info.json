@@ -1,0 +1,444 @@
+[
+    {
+        "name": "banner_mounted",
+        "description": "这是一个类中世纪题材的3D资产，主要特征如下：\n\n- **盾牌**：中央有一个金属盾牌，盾牌上有十字图案。\n- **剑**：两侧各有一把交叉的剑，剑柄朝外。\n- **木板**：盾牌和剑固定在一个木质背景板上，背景板有明显的木纹纹理。\n- **钉子**：顶部有两个金属钉子，将盾牌和剑固定在木板上。",
+        "reference_path": "res:\\scenes\\props\\banner_mounted.tscn",
+        "pivot": "物体中心",
+        "geometry_info": {
+            "vertices": 1045,
+            "triangles": 639
+        },
+        "bounding_box": {
+            "center": [
+                0.0,
+                2.12943,
+                0.50248
+            ],
+            "extend": [
+                2.232,
+                3.19608,
+                0.3741
+            ]
+        },
+        "materials": [
+            {
+                "DungeonMat": {
+                    "BaseColor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "BaseFalloff": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "candles",
+        "description": "这组3D资产看起来像是类中世纪风格的蜡烛。主要特征如下：\n\n1. **形状**：蜡烛呈圆柱形，顶部有一个小的黑色烛芯。\n2. **颜色**：蜡烛主体为白色，烛芯为黑色。\n3. **数量**：共有三支蜡烛，高度不同，形成一组。\n4. **材质**：表面光滑，可能是蜡质材料。\n\n这些蜡烛可以用于中世纪风格的场景装饰。",
+        "reference_path": "res:\\scenes\\props\\candles.tscn",
+        "pivot": "物体中心",
+        "geometry_info": {
+            "vertices": 285,
+            "triangles": 198
+        },
+        "bounding_box": {
+            "center": [
+                0.0834,
+                0.43649,
+                0.03544
+            ],
+            "extend": [
+                0.50118,
+                0.87298,
+                0.38992
+            ]
+        },
+        "materials": [
+            {
+                "DungeonMat": {
+                    "BaseColor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "BaseFalloff": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "chair",
+        "description": "这是一把中世纪风格的木制椅子。主要特征包括：\n\n- **椅背**：椅背较高，顶部呈弧形，中间有两块水平的木板。\n- **椅座**：椅座为长方形，表面平整。\n- **椅腿**：四条椅腿粗壮，前两条椅腿之间有一根横梁连接，增加稳定性。\n- **材质**：整体看起来像是由木材制成，表面有木质纹理。\n\n这把椅子的设计简洁，符合中世纪家具的典型风格。",
+        "reference_path": "res:\\scenes\\props\\chair.tscn",
+        "pivot": "物体中心",
+        "geometry_info": {
+            "vertices": 506,
+            "triangles": 294
+        },
+        "bounding_box": {
+            "center": [
+                0.00129,
+                0.61325,
+                0.0
+            ],
+            "extend": [
+                0.75,
+                1.22651,
+                0.75001
+            ]
+        },
+        "materials": [
+            {
+                "texture": {
+                    "BaseColor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "BaseFalloff": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "chest_gold",
+        "description": "这是一个类中世纪题材的3D宝箱资产。主要特征包括：\n\n- 红褐色的木质箱体\n- 金属锁扣和搭扣\n- 金属带加固箱体两侧",
+        "reference_path": "res:\\scenes\\props\\chest_gold.tscn",
+        "pivot": "物体中心",
+        "geometry_info": {
+            "vertices": 671,
+            "triangles": 462
+        },
+        "bounding_box": {
+            "center": [
+                0.0,
+                0.3175,
+                0.58778
+            ],
+            "extend": [
+                1.7,
+                0.965,
+                1.4458
+            ]
+        },
+        "materials": [
+            {
+                "DungeonMat": {
+                    "BaseColor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "BaseFalloff": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "coin_stack",
+        "description": "这是一组类中世纪题材的3D资产，主要特征如下：\n\n1. **形状**：物体呈多边形（六边形）形状，类似于古代金币或宝石。\n2. **堆叠方式**：物体以不规则的方式堆叠在一起，形成一个金字塔状的结构。\n3. **颜色**：物体呈现出金色，表面有光泽，反射光线。\n4. **材质**：表面光滑，具有金属质感，可能是金质或镀金的材质。\n5. **数量**：图中有多个相同的物体，数量较多，分布不均匀。",
+        "reference_path": "res:\\scenes\\props\\coin_stack.tscn",
+        "pivot": "物体中心",
+        "geometry_info": {
+            "vertices": 2290,
+            "triangles": 1776
+        },
+        "bounding_box": {
+            "center": [
+                -0.00105,
+                0.57844,
+                0.01376
+            ],
+            "extend": [
+                1.4365,
+                1.15689,
+                1.65868
+            ]
+        },
+        "materials": [
+            {
+                "DungeonMat": {
+                    "BaseColor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "BaseFalloff": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "crates_stacked",
+        "description": "这张图片展示了一些类中世纪题材的3D资产，主要特征如下：\n\n1. **建筑结构**：\n   - **左侧建筑**：由多个层次组成，顶部有一个类似塔楼的结构，颜色为深棕色和蓝色。建筑表面有明显的木纹纹理，显示出木质材料。\n   - **右侧建筑**：一个简单的立方体结构，顶部有一个开口，颜色为浅蓝色和橙色。表面光滑，没有明显的纹理。\n\n2. **物品**：\n   - **底部物体**：一个小型的圆柱形物体，颜色为棕色，底部有一个六边形的底座。这个物体可能是某种容器或装饰品。\n\n这些资产的设计风格简洁，色彩搭配鲜明，适合用于构建类中世纪风格的游戏场景或动画。",
+        "reference_path": "res:\\scenes\\props\\crates_stacked.tscn",
+        "pivot": "物体中心",
+        "geometry_info": {
+            "vertices": 2367,
+            "triangles": 1331
+        },
+        "bounding_box": {
+            "center": [
+                -0.04541,
+                1.07114,
+                -0.03255
+            ],
+            "extend": [
+                2.08918,
+                2.1423,
+                2.2494
+            ]
+        },
+        "materials": [
+            {
+                "DungeonMat": {
+                    "BaseColor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "BaseFalloff": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "keg_decorated",
+        "description": "这张图片展示了一组类中世纪题材的3D资产，主要包括以下物体：\n\n1. **木桶**：一个大型的木质酒桶，表面有明显的木纹和金属箍。\n2. **桌子**：一张简单的木制桌子，桌面上放置了几件物品。\n3. **瓶子**：桌子上放有三个瓶子，瓶口有软木塞，可能是装酒或其他液体的容器。\n4. **碗状物**：桌子上还有一个碗状的物品，可能是用来盛放食物或饮料的。\n\n这些物品通常出现在中世纪风格的场景中，如酒馆、市场或城堡内部。",
+        "reference_path": "res:\\scenes\\props\\keg_decorated.tscn",
+        "pivot": "物体中心",
+        "geometry_info": {
+            "vertices": 3323,
+            "triangles": 2058
+        },
+        "bounding_box": {
+            "center": [
+                -0.05969,
+                1.02536,
+                0.02439
+            ],
+            "extend": [
+                3.51939,
+                2.05072,
+                2.0
+            ]
+        },
+        "materials": [
+            {
+                "DungeonMat": {
+                    "BaseColor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "BaseFalloff": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "keyring",
+        "description": "这是一组中世纪风格的钥匙，主要特征如下：\n\n1. **多把钥匙**：钥匙环上挂着多把不同形状和大小的钥匙。\n2. **几何形状**：钥匙和钥匙环都具有明显的几何形状，线条简洁，棱角分明。\n3. **金属质感**：整体呈现出金属质感，表面光滑，反射光线。\n4. **复古设计**：设计风格偏向复古，符合中世纪时期的审美特点。",
+        "reference_path": "res:\\scenes\\props\\keyring.tscn",
+        "pivot": "物体中心",
+        "geometry_info": {
+            "vertices": 720,
+            "triangles": 728
+        },
+        "bounding_box": {
+            "center": [
+                0.0684,
+                0.11081,
+                -0.06739
+            ],
+            "extend": [
+                1.031,
+                0.26138,
+                1.20935
+            ]
+        },
+        "materials": [
+            {
+                "DungeonMat": {
+                    "BaseColor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "BaseFalloff": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "plate_food",
+        "description": "这是一个类中世纪题材的3D资产，主要特征如下：\n\n- **物体形状**：整体呈不规则形状，类似于一个托盘或容器。\n- **颜色**：主体部分为浅灰色，内部有浅黄色和绿色的部分。\n- **细节**：\n  - 主体部分有一个较大的橙色物体，形状类似半个球体。\n  - 内部有三个绿色的小球体，排列紧密。\n  - 中间部分有一块浅黄色的区域，可能是某种液体或粉末。\n\n这个资产可能用于游戏或动画中的道具或装饰物。",
+        "reference_path": "res:\\scenes\\props\\plate_food.tscn",
+        "pivot": "物体中心",
+        "geometry_info": {
+            "vertices": 572,
+            "triangles": 547
+        },
+        "bounding_box": {
+            "center": [
+                -0.02737,
+                0.39377,
+                -0.00057
+            ],
+            "extend": [
+                1.02498,
+                0.78755,
+                0.9706
+            ]
+        },
+        "materials": [
+            {
+                "DungeonMat": {
+                    "BaseColor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "BaseFalloff": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "sword_shield",
+        "description": "这是一组中世纪题材的3D资产，包含一个盾牌和两把交叉的剑。盾牌呈金色，中心有红色的十字图案，边缘有金色装饰。两把剑交叉放置在盾牌两侧，剑柄为黄色，剑身呈黑色。整体设计简洁，具有明显的中世纪风格。",
+        "reference_path": "res:\\scenes\\props\\sword_shield.tscn",
+        "pivot": "物体中心",
+        "geometry_info": {
+            "vertices": 823,
+            "triangles": 542
+        },
+        "bounding_box": {
+            "center": [
+                0.0,
+                0.01871,
+                0.0833
+            ],
+            "extend": [
+                2.232,
+                1.66745,
+                0.33574
+            ]
+        },
+        "materials": [
+            {
+                "DungeonMat": {
+                    "BaseColor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "BaseFalloff": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "table_medium",
+        "description": "这是一张中世纪风格的木制桌子，桌面上铺有一条白色的布。桌子结构简单，四条腿支撑着桌面，整体呈现出古朴的风格。",
+        "reference_path": "res:\\scenes\\props\\table_medium.tscn",
+        "pivot": "物体中心",
+        "geometry_info": {
+            "vertices": 482,
+            "triangles": 270
+        },
+        "bounding_box": {
+            "center": [
+                0.0,
+                0.5,
+                0.0
+            ],
+            "extend": [
+                2.0,
+                1.0,
+                2.0
+            ]
+        },
+        "materials": [
+            {
+                "DungeonMat": {
+                    "BaseColor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "BaseFalloff": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "table_small",
+        "description": "这是一张类中世纪题材的3D资产，展示了一张简陋的木制长凳。主要特征如下：\n\n- **形状**：长方形的座面，四条直立的腿。\n- **材质**：木质纹理，表面粗糙，有明显的木纹和接缝。\n- **风格**：简约朴素，符合中世纪乡村或城堡内部的家具风格。\n- **细节**：座面和腿之间有简单的连接结构，没有过多的装饰。",
+        "reference_path": "res:\\scenes\\props\\table_small.tscn",
+        "pivot": "物体中心",
+        "geometry_info": {
+            "vertices": 348,
+            "triangles": 192
+        },
+        "bounding_box": {
+            "center": [
+                -0.00082,
+                0.5,
+                -0.0002
+            ],
+            "extend": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "materials": [
+            {
+                "DungeonMat": {
+                    "BaseColor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "BaseFalloff": null
+                }
+            }
+        ]
+    },
+    {
+        "name": "torch_mounted",
+        "description": "这是一把类中世纪风格的剑柄。主要特征包括：\n\n- 剑柄顶部有一个类似皇冠的结构，由多个几何形状组成。\n- 剑柄中间部分有一个镂空的设计，增加了装饰性。\n- 剑柄底部有一个圆形的护手，颜色较深，可能是金属材质。\n- 整体设计简洁，具有几何美感。",
+        "reference_path": "res:\\scenes\\props\\torch_mounted.tscn",
+        "pivot": "物体中心",
+        "geometry_info": {
+            "vertices": 402,
+            "triangles": 278
+        },
+        "bounding_box": {
+            "center": [
+                1e-05,
+                0.15043,
+                0.30792
+            ],
+            "extend": [
+                0.55028,
+                1.06247,
+                0.61584
+            ]
+        },
+        "materials": [
+            {
+                "DungeonMat": {
+                    "BaseColor": [
+                        0.8,
+                        0.8,
+                        0.8
+                    ],
+                    "BaseFalloff": null
+                }
+            }
+        ]
+    }
+]

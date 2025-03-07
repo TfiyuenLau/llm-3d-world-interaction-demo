@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dc01fst25g18i"]
+
+[ext_resource type="PackedScene" uid="uid://bi8xu18vk1sx" path="res://models/building/wall_doorway.glb" id="1_k2f5u"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ol7gi"]
+points = PackedVector3Array(2, 4, 0.5, 2, 0, 0.5, 2, 4, -0.5, -2, 4, 0.5, 2, 0, -0.5, -2, 0, 0.5, -2, 4, -0.5, -2, 0, -0.5)
+
+[node name="WallDoorwayClosed" type="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConvexPolygonShape3D_ol7gi")
+
+[node name="wall_doorway2" parent="." instance=ExtResource("1_k2f5u")]

@@ -1,0 +1,18 @@
+{
+    "finish_reason": "tool_calls",
+    "message": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+            {
+                "function": {
+                    "name": "spawn_object",
+                    "arguments": "{\"description\": \"PlateFood\", \"pos_x\": -0.5, \"pos_y\": 1.5, \"pos_z\": -3.1, \"reference_path\": \"res://scenes/props/plate_food.tscn\", \"rot_x\": 0, \"rot_y\": 29.9984, \"rot_z\": 0, \"scale_x\": 1, \"scale_y\": 1, \"scale_z\": 1}"
+                },
+                "index": 0,
+                "id": "call_d82b42a6c6d14bbcbd0e71",
+                "type": "function"
+            }
+        ]
+    }
+}

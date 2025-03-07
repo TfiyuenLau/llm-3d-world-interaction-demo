@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://co0fktc1kisbj"]
+
+[ext_resource type="PackedScene" uid="uid://c3obekfesounw" path="res://models/building/wall_arched.glb" id="1_urlvc"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_posw4"]
+points = PackedVector3Array(2, 4, 0.500001, 2, 0, 0.500001, 2, 4, -0.5, -2, 4, 0.499903, 2, 0, -0.5, -2, 0, 0.499903, -2, 4, -0.5, -2, 0, -0.5)
+
+[node name="WallArched" type="StaticBody3D"]
+
+[node name="wall_arched2" parent="." instance=ExtResource("1_urlvc")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConvexPolygonShape3D_posw4")
