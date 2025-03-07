@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://addons/proto_controller/proto_controller.tscn" id="1_5rodf"]
 [ext_resource type="Texture2D" uid="uid://cr6xtwcufruyk" path="res://assets/hdri/lonely_road_afternoon_puresky_1k.hdr" id="1_bvbio"]
-[ext_resource type="Script" path="res://scripts/main.gd" id="1_gmdmi"]
+[ext_resource type="Script" uid="uid://ctmkjpvmnhiad" path="res://scripts/main.gd" id="1_gmdmi"]
 [ext_resource type="PackedScene" uid="uid://cephhuv5ct545" path="res://scenes/buildings/floor_wood.tscn" id="4_6nh2a"]
 [ext_resource type="PackedScene" uid="uid://dmg07gpyatnp2" path="res://scenes/buildings/floor_stone.tscn" id="5_otoyg"]
 [ext_resource type="PackedScene" uid="uid://7rsg1r7vg40v" path="res://scenes/buildings/wall.tscn" id="6_4rkfw"]
@@ -28,7 +28,7 @@
 [ext_resource type="PackedScene" uid="uid://cggx74d4bve3x" path="res://scenes/props/torch_mounted.tscn" id="24_dqtgd"]
 [ext_resource type="PackedScene" uid="uid://b1vgfah3ruqig" path="res://scenes/buildings/celiling.tscn" id="25_ym34v"]
 [ext_resource type="AudioStream" uid="uid://7hs1mivxxh2q" path="res://assets/music/time_for_adventure.mp3" id="27_707m2"]
-[ext_resource type="Script" path="res://scripts/llm_interaction.gd" id="27_nfn6l"]
+[ext_resource type="Script" uid="uid://c8t38sqv4c5lj" path="res://scripts/llm_interaction.gd" id="27_nfn6l"]
 
 [sub_resource type="Gradient" id="Gradient_6277o"]
 offsets = PackedFloat32Array(0, 0.167665, 0.886228, 1)
